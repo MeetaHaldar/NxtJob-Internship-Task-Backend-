@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,                 // Required for `import express from 'express'`
+    "allowSyntheticDefaultImports": true,    // Optional, for consistency
+    "skipLibCheck": true,                    // Ignore type-checking in node_modules
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
