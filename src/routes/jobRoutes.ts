@@ -10,9 +10,9 @@ import {
 const router = Router();
 
 router.get("/", fetchAllJobs);
-// router.get('/:id', fetchJobById);
+router.get("/:id", fetchJobById);
 router.post("/", addJob);
-// router.put('/:id', modifyJob);
-// router.delete('/:id', removeJob);
+router.put("/:id", modifyJob);
+router.delete("/:id", removeJob);
 
 export default router;
